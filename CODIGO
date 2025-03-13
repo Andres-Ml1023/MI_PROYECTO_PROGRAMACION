@@ -1,0 +1,10 @@
+# Pedir tres edades al usuario
+edad1 = int(input("Ingresa la primera edad: "))
+edad2 = int(input("Ingresa la segunda edad: "))
+edad3 = int(input("Ingresa la tercera edad: "))
+
+# Calcular el promedio
+promedio = (edad1 + edad2 + edad3) / 3
+
+# Mostrar el resultado
+print("El promedio de las edades es:", promedio)
